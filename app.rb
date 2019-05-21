@@ -6,6 +6,8 @@ class App < Sinatra::Base
 
   end
 
-  get '/reversename/:name'
+  get '/reversename/:name' do
+    erb :reversename
+  end
 
 end
