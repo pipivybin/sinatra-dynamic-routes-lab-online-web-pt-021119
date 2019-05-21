@@ -2,9 +2,9 @@
 case params[:operation]
 when adds %>
  <%= params[:number1] + params[:number2] %>
-when substracts
+<% when substracts %>
 <%= params[:number1] - params[:number2] %>
-when multiplies
+<% when multiplies %>
 <%= params[:number1] * params[:number2] %>
-when divides
+<% when divides %>
 <%= params[:number1] / params[:number2] %>
